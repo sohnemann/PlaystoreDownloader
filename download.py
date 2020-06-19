@@ -116,7 +116,7 @@ def main():
                 re.sub(
                     r"[^\w\-_.\s]",
                     "_",
-                    f"{details['title']} by {details['creator']} - "
+                    #f"{details['title']} by {details['creator']} - "
                     f"{details['package_name']}.apk",
                 ),
             )
